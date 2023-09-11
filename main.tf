@@ -51,7 +51,6 @@ resource "openstack_vpnaas_site_connection_v2" "this" {
   vpnservice_id  = var.vpn_service_id
   ikepolicy_id   = openstack_vpnaas_ike_policy_v2.this.id
   ipsecpolicy_id = openstack_vpnaas_ipsec_policy_v2.this.id
-  // TODO(leon): replace with auto discovery based on OpenStack network
   local_ep_group_id = openstack_vpnaas_endpoint_group_v2.local.id
 
   peer_id          = var.peer_address
