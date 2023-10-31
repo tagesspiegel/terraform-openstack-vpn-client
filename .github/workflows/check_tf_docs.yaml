@@ -1,22 +1,16 @@
-name: Check for up-to-date terraform docs
-on:
-  pull_request:
-    paths:
-      - '*.tf'
+name: Check if terraform docs are updated
+on: pull_request
 jobs:
   docs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v3
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
-
-    - name: Check if terraform docs inside the README.md are updated
-      uses: terraform-docs/gh-actions@v1.0.0
-      with:
-        working-dir: .
-        output-file: README.md
-        output-method: inject
-        fail-on-diff: "true"
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Check if terraform docs inside the README.md are updated
+        uses: terraform-docs/gh-actions@v1.0.0
+        with:
+          working-dir: .
+          fail-on-diff: "true"
