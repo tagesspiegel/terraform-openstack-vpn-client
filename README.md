@@ -8,13 +8,13 @@ This module creates and configures a VPN Client on OpenStack.
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> v1.6 |
-| <a name="requirement_openstack"></a> [openstack](#requirement\_openstack) | 1.51.1 |
+| <a name="requirement_openstack"></a> [openstack](#requirement\_openstack) | 1.53.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_openstack"></a> [openstack](#provider\_openstack) | 1.51.1 |
+| <a name="provider_openstack"></a> [openstack](#provider\_openstack) | 1.53.0 |
 
 ## Modules
 
@@ -24,12 +24,12 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [openstack_vpnaas_endpoint_group_v2.local](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_endpoint_group_v2) | resource |
-| [openstack_vpnaas_endpoint_group_v2.peer](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_endpoint_group_v2) | resource |
-| [openstack_vpnaas_ike_policy_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_ike_policy_v2) | resource |
-| [openstack_vpnaas_ipsec_policy_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_ipsec_policy_v2) | resource |
-| [openstack_vpnaas_service_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_service_v2) | resource |
-| [openstack_vpnaas_site_connection_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.51.1/docs/resources/vpnaas_site_connection_v2) | resource |
+| [openstack_vpnaas_endpoint_group_v2.local](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_endpoint_group_v2) | resource |
+| [openstack_vpnaas_endpoint_group_v2.peer](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_endpoint_group_v2) | resource |
+| [openstack_vpnaas_ike_policy_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_ike_policy_v2) | resource |
+| [openstack_vpnaas_ipsec_policy_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_ipsec_policy_v2) | resource |
+| [openstack_vpnaas_service_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_service_v2) | resource |
+| [openstack_vpnaas_site_connection_v2.this](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/1.53.0/docs/resources/vpnaas_site_connection_v2) | resource |
 
 ## Inputs
 
