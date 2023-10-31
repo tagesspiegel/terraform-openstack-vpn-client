@@ -7,7 +7,7 @@ This module creates and configures a VPN Client on OpenStack.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= v1.4.6 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> v1.6 |
 | <a name="requirement_openstack"></a> [openstack](#requirement\_openstack) | 1.51.1 |
 
 ## Providers
